@@ -1,0 +1,170 @@
+/* Globales */
+
+.borde {
+  border: 1px solid #ccc;
+}
+.contenedor-izq {
+  max-width: 95%;
+  height: 95%;
+  margin: 0 auto;
+}
+
+.contenedor-dch {
+  max-width: 95%;
+  height: 95%;
+  margin: 0 auto;
+}
+.seccion-izq {
+  background-color: #acc3c4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.seccion-dch {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padding {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.padding-btt {
+  padding-bottom: 30px;
+}
+
+.paddinb-top {
+  padding-top: 30px;
+}
+.padding-fa {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Fuentes */
+@font-face {
+  font-family: montserrat;
+  src: url(/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: montserrat-light;
+  src: url(/assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(/assets/fonts/Montserrat-ExtraBold.ttf);
+}
+/* Texto */
+
+.txt-black-center {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration-style: wavy;
+  color: black;
+  letter-spacing: 6px;
+  font-family: montserrat;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
+
+.txt-white {
+  color: white;
+  font-family: montserrat-light;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.-txt-black-justify {
+  font-family: montserrat-light;
+}
+
+/* Izquierda */
+
+.foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40% 40%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.ul-graph li {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.ul-contact li {
+  padding-bottom: 35px;
+  text-align: left;
+}
+
+ul li:last-child {
+  padding-bottom: 0;
+}
+ul li a {
+  text-decoration: underline;
+  color: white;
+}
+
+ul li a:hover {
+  color: white;
+}
+
+.ul-dots li {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.ul-habilities li {
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+/* Derecha */
+
+.nombre h2 {
+  font-family: montserrat-bold;
+  text-align: center;
+  padding-top: 40px;
+  color: #acc3c4;
+  letter-spacing: 10px;
+}
+
+.cursos h4,
+.historial h4,
+.experiencia h4 {
+  padding-top: 20px;
+  font-family: montserrat;
+  color: #acc3c4;
+}
+
+.cursos p,
+.historial p,
+.experiencia p {
+  text-align: justify;
+  font-family: montserrat-light;
+  color: black;
+}
